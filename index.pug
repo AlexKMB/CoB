@@ -1,0 +1,24 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        script(src='./javascripts/cookieclick.js')
+        title clicker du shnaps
+    body
+        h2 clicker du shnaps
+        section(id="clicker")
+            div(id="result")
+            label(for="cookieparseconde") cookie par seconde 
+                span(type="chiffre", id="cookieparseconde") 0
+                br
+            input(type="button", value="cookie du shnaps", onclick="clicker();")
+        section
+            br
+            button(class="autoclicker", id="marmotte") Marmotte
+            button(class="autoclicker", id="jeankevin") Jean-Kevin
+            button(class="autoclicker", id="jacklarnaque") Jack-larnaque
+    footer
+        section
+            p ce projet fut une galère pas tant dans ça difficulté techique mais dans sa difficulté motivationnel
