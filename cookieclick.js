@@ -51,7 +51,7 @@ function JeanKevin() {
     }
 }
 
-function JeanKevin() {
+function JackLarnaque() {
     console.log('ici')
     try {
         if (localStorage.getItem('clicker') > 10) {
